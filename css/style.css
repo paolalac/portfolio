@@ -200,6 +200,15 @@ p {
     grid-row-end: 30;
 }
 
+#main h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
 #gallery{
 	display: flex;
 	flex-flow: nowrap;
