@@ -1,5 +1,5 @@
-let list = document.querySelectorAll('.list');
-let itemBox = document.querySelectorAll('.image');
+let list = document.querySelectorAll(".list");
+let itemBox = document.querySelectorAll(".image");
 
 for(let i = 0; i<list.length; i++){
     list[i].addEventListener('click', function(){
@@ -24,10 +24,3 @@ for(let i = 0; i<list.length; i++){
 
 
 
-<ul>
-<li class="list active" data-filter="all">All</li>
-<li class="list" data-filter="mobile">North America</li>
-<li class="list" data-filter="car">Latin America</li>
-<li class="list" data-filter="bike">Europe</li>
-
-</ul>
